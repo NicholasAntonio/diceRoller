@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>RPG Dice Roller</title>
+</head>
+<body>
+    <div class="container">
+        <h1>RPG Dice Roller</h1>
+        <label for="diceType">Selecione um dado:</label>
+        <select id="diceType">
+            <option value="d6">d6</option>
+            <option value="d8">d8</option>
+            <option value="d10">d10</option>
+            <option value="d20">d20</option>
+            <option value="d100">d100</option>
+        </select>
+       
+        <label for="numDice">Número de dados:</label>
+        <input type="number" id="numDice" placeholder="Insira o número de dados">
+
+        <label for="bonus">Buff / Debuff:</label>
+        <input type="number" id="bonus" placeholder="Insira o buff ou debuff">
+
+       
+
+
+        <button id="rollButton">Rolar</button>
+        <p id="result"></p>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
