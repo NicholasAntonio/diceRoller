@@ -35,15 +35,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (selectedDice === 'd20') {
                 if (totalResult === numDice) {
-                    resultText += `<span class= 'failure-message'> Falha crítica!</span>`;
+                    resultText = `<span class= 'failure-message'> Falha crítica!</span>`;
                 } else if (totalResult === numDice * 20) {
-                    resultText += `<span class= 'sucess-message'> Sucesso crítico!</span>`;
+                    resultText = `<span class= 'sucess-message'> Sucesso crítico!</span>`;
                 }
             } else if (selectedDice === 'd100') {
                 if (totalResult === numDice) {
-                    resultText +=  `<span class= 'failure-message'> Falha crítica!</span>`;
+                    resultText ==  `<span class= 'failure-message'> Falha crítica!</span>`;
                 } else if (totalResult === numDice * 100) {
-                    resultText += `<span class= 'sucess-message'> Sucesso crítico!</span>` ;
+                    resultText = `<span class= 'sucess-message'> Sucesso crítico!</span>` ;
                 }
             }
 

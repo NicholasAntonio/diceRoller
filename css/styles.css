@@ -10,12 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to top, #1c0e16, #331422, #4d182b, #671b2f, #821f30, #8b1f2c, #931f27, #9b2121, #951a1a, #8f1312, #890a0a, #830000);
+    background-color: #83867a;
+    color: #f4f4f4;
 }
 
 .container {
     text-align: center;
-    background-color: #C67308;
+    background-color: #16140b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -48,13 +49,13 @@ select, input,  button {
 
 button {
     cursor: pointer;
-    background-image: linear-gradient(to top, #1c0e16, #331422, #4d182b, #671b2f, #821f30, #8b1f2c, #931f27, #9b2121, #951a1a, #8f1312, #890a0a, #830000);
-    color: white;
+    background-color: #16140b;
+    color: #f4f4f4;
     padding: 16px 0;
     width: 64px;
     text-align: center;
     letter-spacing: 1px;
-    border: none;
+    border: 1px solid #f4f4f4;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
@@ -63,7 +64,8 @@ button {
 
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f4f4f4;
+    color: #16140b;
     transform: scale(1.1) 
 }
 
